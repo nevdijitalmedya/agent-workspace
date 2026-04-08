@@ -1,0 +1,15 @@
+# Agent workspace gitignore
+
+# WP uygulama şifreleri veya API key'leri asla commit edilmesin
+.env
+.env.local
+secrets.md
+*_secrets.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.code-workspace
