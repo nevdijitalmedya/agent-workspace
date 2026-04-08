@@ -22,11 +22,13 @@ Günlük (sabah çalışır). Haftalık review her Pazartesi.
 
 ### 3. Execute Skill
 
-```
+```text
 keywords.md'de konu var
-  └─ CONTENT_GENERATE → outputs/ taslak kaydet → insan onayı iste
+  └─ CONTENT_GENERATE → taslak kaydet
+       └─ IMAGE_GENERATE → görsel üret → WP media'ya yükle → taslağa featured_image_id ekle
+            └─ insan onayı iste
 
-Onaylı taslak var
+Onaylı taslak var (featured_image_id dahil)
   └─ WP_PUBLISH → yayın logu kaydet → journal'a yaz
 
 Pipeline boş
